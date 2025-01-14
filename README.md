@@ -26,6 +26,8 @@ Order Data Page
 
 The approach to this page was similar. I spent some time trying other visual types with the order data for variety and really tried to refine the overall design. When it came to the number of items purchased by country flow chart, I had to ensure that the X-axis was sorted by month and not volume, and that the legend title was removed. The order count by customer bar chart was sorted in descending order and filtered using TopN to limit the results. Beyond the charts, a gauge was added to this page displaying orders this quarter against a set target value as well as two cards being the number of items sold and the current stock on hand. Furthermore, a Country slicer was added and synced with the one on the Sales Overview page. 
 
+<img src="OrderData.png" alt="Order Data Page">
+
 Additional Steps 
 
 In rounding out the entire file, I added navigation buttons between the pages. I also spent considerable time making the theme consistent, saving that theme to a JSON file, and spacing the elements evenly, creating a polished and repeatable look/feel. I then ran the Performance Analyzer on both pages to check load times and note the durations. As expected with this limited data, nothing was out of the ordinary or of concern. At this point I wanted to implement drill through on at least one visual. Thus, I created a hierarchy starting with the Country Name Field, then ZIP Code, followed by Address. I placed this into the orders by country donut chart, enabling the user to filter down into the more granular data. Lastly I created a Bookmark that was set on France with the donut chart drilled down to the ZIP Code level. 
