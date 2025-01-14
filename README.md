@@ -9,8 +9,6 @@ Collecting, Importing, & Loading the Data
 For this project I made use of three Excel files: a Countries file, a Purchase file, and a Sales file. The last of which required cleaning in Excel using functions and formulas as well the creation of three new columns being Gross Revenue, Total Tax, and Net Revenue. Before moving forward I made sure to make copies of the original data files as backups. From there, I imported the data into Power BI and opened Power Query. I made further changes to certain Column names, altered column data types as necessary, and reviewed Column Quality, Distribution, & Profiles to ensure that there were no issues with the entries or the values that they held. 
 In closing Power Query, I went to the Model View, removed the assumed relationships and proceeded to get data containing Currency Exchange information (as the sales were collected from five different countries) using a Python Script. To simplify the model’s use of time based analysis, I further added a Calendar Table using DAX code. 
 
-<img src="CalendarTable_DAX.png" alt="Calendar Table DAX "> <img src="ExchangeData_PythonScript.png" alt="Exchange Rate Table Python Script">
-
 Completing the Model 
 
 With all of the tables imported to the file, I created a “Sales in USD” table with DAX using the “Sales” and “Currency Exchange” tables, adjusting Gross Revenue, Total Tax, and Net Revenue for the exchange rate attached to each sale. I then created a few calculated measures from this new table. These included ‘Median Sales’, ‘YTD Orders’, and ‘Quarterly Orders’. Finally, I arranged the tables in the model view and built the relationships for each in the Manage Relationships window, ensuring the correct cardinality and cross-filter direction.
@@ -36,5 +34,13 @@ In rounding out the entire file, I added navigation buttons between the pages. I
 
 <img src="FranceFocusedBookmark.png" alt="France Focused Bookmark">
 
+Potential Next steps 
+
+- Design the Mobile layout / 
+- Share to Power BI Service / 
+- Create artificial Workspace /
+Create a Dashboard 
+Set permissions 
+Make and add additional entries for a more complete model
 
 
