@@ -36,11 +36,12 @@ In rounding out the entire file, I added navigation buttons between the pages. I
 
 Potential Next steps 
 
-- Design the Mobile layout / 
-- Share to Power BI Service / 
-- Create artificial Workspace /
-Create a Dashboard 
-Set permissions 
-Make and add additional entries for a more complete model
+- Design the Mobile layout  
+- Share to Power BI Service  
+  - Create artificial Workspace 
+  - Create a Dashboard 
+  - Set permissions
+- Add accessiblity features (controls & Alt text)
+- Make and add additional entries for a more complete model
 
 
