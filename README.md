@@ -13,6 +13,8 @@ Completing the Model
 
 With all of the tables imported to the file, I created a “Sales in USD” table with DAX using the “Sales” and “Currency Exchange” tables, adjusting Gross Revenue, Total Tax, and Net Revenue for the exchange rate attached to each sale. I then created a few calculated measures from this new table. These included ‘Median Sales’, ‘YTD Orders’, and ‘Quarterly Orders’. Finally, I arranged the tables in the model view and built the relationships for each in the Manage Relationships window, ensuring the correct cardinality and cross-filter direction.
 
+<img src="ModelView.png" alt="Model View Sreenshot">
+
 Sales Overview Page 
 
 Moving to the report view, I started creating the first page, renaming it “Sales Overview”. I spent a fair bit of time exploring various ways to visualize the data in a way that was informative yet general in scope, with the capacity to be filtered further. For this page I ended with four charts and three card visuals. Again, to reiterate the data used is not reflective of a real company so it was a bit limited in certain areas. However, I focused on creating easily digestible and intuitive visuals that optimized the “ink to information” ratio within a very instinctive report layout. 
